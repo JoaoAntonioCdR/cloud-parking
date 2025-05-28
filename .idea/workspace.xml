@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c65097e-38fb-4f5f-881e-9ce7e97d21e2" name="Changes" comment="" />
+    <list default="true" id="8c65097e-38fb-4f5f-881e-9ce7e97d21e2" name="Changes" comment="Enviando aplicação para o Git">
+      <change afterPath="$PROJECT_DIR$/src/main/java/deploy/project/cloud_parking/Config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/deploy/project/cloud_parking/Controller/DTO/ParkingCreateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/deploy/project/cloud_parking/Controller/DTO/ParkingDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/deploy/project/cloud_parking/Controller/Mapper/ParkingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/deploy/project/cloud_parking/Controller/ParkingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/deploy/project/cloud_parking/Exception/ParkingNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/deploy/project/cloud_parking/Model/Parking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/deploy/project/cloud_parking/Repository/ParkingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/deploy/project/cloud_parking/Service/ParkingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/deploy/project/cloud_parking/Controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/deploy/project/cloud_parking/Controller/HelloController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +26,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JoaoAntonioCdR&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JoaoAntonioCdR/cloud-parking.git&quot;,
+    &quot;accountId&quot;: &quot;1935cac4-e9c1-4c86-8275-808d4e3e454b&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -28,6 +57,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2xLLpXAy4GZngr9kjxz5ZVuv77c" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,7 +72,9 @@
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;Spring Boot.CloudParkingApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -49,6 +83,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="deploy.project.cloud_parking.Exception" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="CloudParkingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="cloud-parking" />
@@ -75,10 +114,34 @@
       <updated>1747712590382</updated>
       <workItem from="1747712591994" duration="1856000" />
       <workItem from="1748104497371" duration="381000" />
+      <workItem from="1748272462510" duration="5718000" />
+      <workItem from="1748376099961" duration="606000" />
+      <workItem from="1748447472518" duration="3640000" />
     </task>
+    <task id="LOCAL-00001" summary="Enviando aplicação para o Git">
+      <option name="closed" value="true" />
+      <created>1748272515283</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748272515283</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Enviando aplicação para o Git">
+      <option name="closed" value="true" />
+      <created>1748272526150</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748272526150</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Enviando aplicação para o Git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enviando aplicação para o Git" />
   </component>
 </project>
