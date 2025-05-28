@@ -33,7 +33,8 @@ public class ParkingService {
         return parkingRepository.save(dto);
     }
 
-    public Parking update(Parking dto) {
+    public Parking update(String id,Parking dto) {
+        findById(id);
         return parkingRepository.save(dto);
     }
 
