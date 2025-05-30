@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c65097e-38fb-4f5f-881e-9ce7e97d21e2" name="Changes" comment="Criando os endpoints da Api">
+    <list default="true" id="8c65097e-38fb-4f5f-881e-9ce7e97d21e2" name="Changes" comment="Arrumando alguns erros no endpoint Update">
+      <change afterPath="$PROJECT_DIR$/src/test/java/deploy/project/cloud_parking/Controller/ParkingControllerIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/deploy/project/cloud_parking/Controller/ParkingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/deploy/project/cloud_parking/Controller/ParkingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/deploy/project/cloud_parking/Service/ParkingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/deploy/project/cloud_parking/Service/ParkingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -37,6 +38,11 @@
     &quot;accountId&quot;: &quot;1935cac4-e9c1-4c86-8275-808d4e3e454b&quot;
   }
 }</component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="ParkingControllerIT" />
+    </enabled-run-configurations>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -55,31 +61,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.CloudParkingApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.ParkingControllerIT.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.CloudParkingApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="deploy.project.cloud_parking.Exception" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="deploy.project.cloud_parking.Controller" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ParkingControllerIT">
+    <configuration name="ParkingControllerIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-parking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="deploy.project.cloud_parking.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="deploy.project.cloud_parking.Controller" />
+      <option name="MAIN_CLASS_NAME" value="deploy.project.cloud_parking.Controller.ParkingControllerIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CloudParkingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="cloud-parking" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="deploy.project.cloud_parking.CloudParkingApplication" />
@@ -87,6 +117,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ParkingControllerIT" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -107,7 +142,8 @@
       <workItem from="1748104497371" duration="381000" />
       <workItem from="1748272462510" duration="5718000" />
       <workItem from="1748376099961" duration="606000" />
-      <workItem from="1748447472518" duration="4695000" />
+      <workItem from="1748447472518" duration="4988000" />
+      <workItem from="1748622175005" duration="2396000" />
     </task>
     <task id="LOCAL-00001" summary="Enviando aplicação para o Git">
       <option name="closed" value="true" />
@@ -133,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748451380669</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Arrumando alguns erros no endpoint Update">
+      <option name="closed" value="true" />
+      <created>1748452502372</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748452502372</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +186,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Enviando aplicação para o Git" />
     <MESSAGE value="Criando os endpoints da Api" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando os endpoints da Api" />
+    <MESSAGE value="Arrumando alguns erros no endpoint Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrumando alguns erros no endpoint Update" />
   </component>
 </project>
