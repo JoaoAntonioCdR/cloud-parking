@@ -1,23 +1,29 @@
 package deploy.project.cloud_parking.Model;
 
+import jakarta.persistence.*;
+
 import java.time.LocalDateTime;
 
+@Entity
+@Table(name = "parking")
 public class Parking {
 
-    private String id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String license;
     private String state;
     private String model;
     private String color;
-    private LocalDateTime entryDate;
+    private LocalDateTime entryDate = LocalDateTime.now();
     private LocalDateTime exitDate;
     private Double bill;
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

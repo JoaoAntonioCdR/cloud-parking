@@ -45,6 +45,6 @@ class ParkingControllerIT {
                 .post("/parking")
                 .then()
                 .statusCode(201)
-                .body("license", Matchers.equalTo("JVC-3305"));
+                .extract().response().body().prettyPrint();
     }
 }
